@@ -5,7 +5,7 @@
 
 body {
     /* more on this crazy alphanumerical value in a mintue! */
-    background-color: #39a6b2;
+    
     font-family: helvetica, Arial, sans-serif;
 }
 
@@ -13,7 +13,6 @@ header {
     padding: 20px 35px;
     background-color: #39a6b2;
     margin: 0;
-    display: inline;
 }
 
 header h1 a {
@@ -21,6 +20,7 @@ header h1 a {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: inline;
   }
 
 header a {
@@ -31,7 +31,7 @@ header a {
 
 header nav {
     float: right;
-    margin: 7px 0
+    margin-bottom: 5px;
 }
 
 header nav ul li {
