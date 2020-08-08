@@ -340,6 +340,15 @@ footer {
     font: 16px;
   }
 
+  .service-grid-item {
+    display: grid;
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+  }
+
 
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
   @media screen and (max-width: 980px) {
